@@ -8,7 +8,7 @@ const newsAccordian = document.getElementById('newsAccordian');
 //create get request
 const xhr = new XMLHttpRequest();
 
-xhr.open('GET', "http://newsapi.org/v2/everything?q=google-news-in&from=2020-05-28&sortBy=publishedAt&apiKey=075bad24985645559a89ea892f8c9cba", true);
+xhr.open('GET', "https://newsapi.org/v2/everything?q=google-news-in&from=2020-05-28&sortBy=publishedAt&apiKey=075bad24985645559a89ea892f8c9cba", true);
 
 //function to perform on load
 xhr.onload = function() {
